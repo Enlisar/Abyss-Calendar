@@ -1,6 +1,6 @@
-<p align="center">
+<h1 align="center">
   Abyss Calender
-</p>
+</h1>
 
 <!-- # Abyss Calendar -->
 
