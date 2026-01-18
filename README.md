@@ -9,7 +9,7 @@ A minimal desktop calendar themed around *Made in Abyss*, built using React and 
 This project takes inspiration from the seven layers of the Abyss and represents each layer through a different background. The goal was to turn a simple calendar into a calm, atmospheric desktop experience while keeping the interface minimal and distraction-free.
 
 <p align="center">
-  <img src="assets/made-in-abyss.png" alt="Made in Abyss" width="900" />
+  <img src="assets/made-in-abyss.webp" alt="Made in Abyss" width="900" />
 </p>
 
 ---
