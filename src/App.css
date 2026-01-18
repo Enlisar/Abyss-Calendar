@@ -1,38 +1,74 @@
-.App {
-  text-align: center;
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app {
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  transition: background-image 0.4s ease-in-out;
+  gap: 5px;
+  padding: 4px;
+  box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.layer-name {
+  color: white;
+  font-size: 13px;
+  cursor: default;
+  font-family: "Itim";
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.calender-card {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  gap: 3px;
+}
+
+.month {
+  text-align: center;
+  font-size: 32px;
   color: white;
+  cursor: default;
+  font-family: "Inknut Antiqua";
+}
+.date {
+  font-size: 110px;
+  color: white;
+  line-height: 0.8;
+  cursor: default;
+  font-family: "Itim";
 }
 
-.App-link {
-  color: #61dafb;
+.descend {
+  width: fit-content;
+  padding: 0 4px 0 4px;
+  align-self: center;
+  color: white;
+
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  border-radius: 6px;
+
+  font-size: 12px;
+  cursor: pointer;
+
+  transition: all 0.2s ease;
+  font-family: "Itim";
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.descend:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+.descend:hover:not(:disabled) {
+  background: rgba(255, 255, 255, 0.15);
 }
